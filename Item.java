@@ -14,7 +14,7 @@ import java.util.Map;
  * @author crist
  */
 public abstract class Item implements Serializable{
-    private String name, location;
+    protected String name, location;
     private Map<String, Object> tags = new HashMap<>();
     
     public void addTag(String key, Object obj) {

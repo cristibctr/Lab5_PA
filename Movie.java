@@ -12,10 +12,11 @@ package lab5_pa;
 public class Movie extends Item{
     int releaseYear, rating;
 
-    public Movie(String name, int releaseYear, int rating) {
+    public Movie(String name, int releaseYear, int rating, String location) {
         this.releaseYear = releaseYear;
         this.rating = rating;
-        this.setName(name);
+        this.name = name;
+        this.location = location;
     }
     
     

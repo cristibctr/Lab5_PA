@@ -5,9 +5,6 @@
  */
 package lab5_pa;
 
-import java.awt.Desktop;
-import java.io.File;
-import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +40,15 @@ public class Catalog implements Serializable {
     public Item getItemsIndex(int index) {
         return items.get(index);
     }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public String getName() {
+        return name;
+    }
+    
     
     
 }
