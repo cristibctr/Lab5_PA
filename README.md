@@ -3,8 +3,11 @@
 Cerintele de la Compulsory rezolvate in timpul laboratorului 5 + Optional
 
 Clasa Commands este clasa abstracta care descrie comenzile in general. Fiecare comanda este implementata prin clase cu nume sugestiv:
+
 play - PlayCommand
+
 list - ListCommand
+
 etc.
 
 Clasa InvalidCommand implementeaza o exceptie custom.
